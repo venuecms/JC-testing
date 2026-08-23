@@ -28,7 +28,7 @@ export const NewsSidebar = async ({
     currentIndex >= 0 ? Math.floor(currentIndex / NEWS_PAGE_SIZE) : 0;
 
   return (
-    <div className="flex flex-col gap-[4.5rem]">
+    <div className="flex flex-col gap-18">
       <h2 className="hidden text-base text-secondary lg:block">{title}</h2>
       <NewsSidebarList
         items={items}

@@ -50,7 +50,7 @@ export const NewsArticle = async ({
 
   return (
     <TwoColumnLayout>
-      <ColumnLeft className="order-last lg:order-none">
+      <ColumnLeft className="order-last lg:order-0">
         <NewsSidebar currentSlug={article.slug} title={title} />
       </ColumnLeft>
       <ColumnRight className="gap-6">
@@ -58,7 +58,7 @@ export const NewsArticle = async ({
         {date ? <div className="text-sm text-muted">{date}</div> : null}
         {article.image ? <VenueImage image={article.image} /> : null}
         <VenueContent
-          className="flex max-w-[42rem] flex-col gap-6 text-sm"
+          className="flex max-w-2xl flex-col gap-6 text-sm"
           content={content}
           contentStyles={contentComponents}
           searchParams={searchParams}
