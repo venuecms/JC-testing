@@ -30,7 +30,7 @@ export const SearchInput = ({ className }: { className?: string }) => {
       <SearchIcon className="size-6" onClick={() => setActive(true)} />
       <div
         className={cn(
-          "grid grid-cols-[1fr,auto] items-center gap-4 overflow-hidden transition-[width] duration-300 ease-in-out",
+          "grid grid-cols-[1fr_auto] items-center gap-4 overflow-hidden transition-[width] duration-300 ease-in-out",
           isActive ? "w-full" : "w-0",
         )}
       >

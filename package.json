@@ -31,6 +31,7 @@
     "use-debounce": "^10.1.1"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
     "@tanstack/react-query-devtools": "^5.102.1",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "@types/node": "^20.19.43",
@@ -39,8 +40,8 @@
     "@types/rss": "^0.0.32",
     "postcss": "^8.5.26",
     "prettier": "3.3.3",
-    "prettier-plugin-tailwindcss": "^0.6.14",
-    "tailwindcss": "^3.4.19",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "tailwindcss": "^4.3.3",
     "typescript": "^5.9.3",
     "vitest": "^3.2.7"
   },

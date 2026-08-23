@@ -14,6 +14,6 @@ export const ListSkeleton = ({
 
 export const Skeleton = ({ className }: { className?: string }) => {
   return (
-    <div className={cn("h-4 w-full bg-primary opacity-[3%]", className)} />
+    <div className={cn("h-4 w-full bg-primary opacity-3", className)} />
   );
 };
